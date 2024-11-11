@@ -1,14 +1,10 @@
-
 // Write a program in java to implement to implement a hashing mechanism using the SHA -256 Algorithm.
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Scanner;
 
-/**
- * experiment1
- */
-public class experiment1 {
+public class Hashing {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -47,3 +43,5 @@ public class experiment1 {
         }
     }
 }
+
+
